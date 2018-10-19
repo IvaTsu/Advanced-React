@@ -1,6 +1,8 @@
+import Header from "./Header";
+
 export default ({ children }) => (
   <div>
-    <p>The Page component</p>
+    <Header />
     {children}
   </div>
 );
