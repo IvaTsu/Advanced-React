@@ -13,6 +13,10 @@ const StyledLogo = styled.h1`
     text-decoration: none;
     text-transform: uppercase;
   }
+  @media (max-width: 1300px) {
+    margin: 0;
+    text-align: center;
+  }
 `;
 
 export default StyledLogo;
