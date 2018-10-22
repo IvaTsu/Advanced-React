@@ -19,4 +19,4 @@ const StyledLogo = styled.h1`
   }
 `;
 
-export default StyledLogo;
+export { StyledLogo };
