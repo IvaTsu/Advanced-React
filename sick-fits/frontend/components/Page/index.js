@@ -1,4 +1,4 @@
-import Header from "../Header/Header";
+import Header from "../Header/index";
 import Meta from "../Meta";
 import { ThemeProvider } from "styled-components";
 import { StyledPage, StyledPageInnerDiv } from "./styles";
