@@ -9,7 +9,6 @@ const StyledPageInnerDiv = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
-  background: red;
 `;
 
 export { StyledPage, StyledPageInnerDiv };
