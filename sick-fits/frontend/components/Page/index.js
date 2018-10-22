@@ -1,11 +1,11 @@
 import Header from "../Header";
 import Meta from "../Meta";
-import { StyledPage } from "./styles";
+import { StyledPage, StyledPageInnerDiv } from "./styles";
 
 export default ({ children }) => (
   <StyledPage>
     <Meta />
     <Header />
-    {children}
+    <StyledPageInnerDiv>{children}</StyledPageInnerDiv>
   </StyledPage>
 );
