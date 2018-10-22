@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 const StyledPage = styled.div`
-  background: white;
-  color: black;
+  background: ${props => props.theme.white};
+  color: ${props => props.theme.black};
 `;
 
 const StyledPageInnerDiv = styled.div`
-  max-width: 1000px;
+  max-width: ${props => props.theme.maxWidth};
   margin: 0 auto;
   padding: 2rem;
 `;
