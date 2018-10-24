@@ -1,6 +1,12 @@
 import { injectGlobal } from "styled-components";
 
 injectGlobal`
+  @font-face {
+    font-family: "radnika-next";
+    src:  url("/static/radnikanext-medium-webfont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
   html {
     box-sizing: border-box;
     font-size: 10px;
@@ -13,6 +19,7 @@ injectGlobal`
     margin: 0;
     font-size: 1.6rem;
     line-height: 2;
+    font-family: "radnika-next";
   } 
 `;
 
