@@ -1,3 +1,21 @@
+import { injectGlobal } from "styled-components";
+
+injectGlobal`
+  html {
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2;
+  } 
+`;
+
 const globalTheme = {
   white: "#FFFFFF",
   red: "#FF0000",
