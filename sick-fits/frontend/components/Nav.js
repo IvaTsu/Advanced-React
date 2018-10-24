@@ -3,11 +3,20 @@ import NavStyles from "./styles/NavStyles";
 
 export default () => (
   <NavStyles>
-    <Link href="/">
-      <a>Go Home</a>
+    <Link href="/items">
+      <a>Items</a>
     </Link>
     <Link href="/sell">
-      <a>Go to Sell</a>
+      <a>Sell</a>
+    </Link>
+    <Link href="/signup">
+      <a>Signup</a>
+    </Link>
+    <Link href="/orders">
+      <a>Orders</a>
+    </Link>
+    <Link href="/account">
+      <a>Account</a>
     </Link>
   </NavStyles>
 );
