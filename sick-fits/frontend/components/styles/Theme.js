@@ -1,4 +1,4 @@
-const Theme = {
+const globalTheme = {
   white: "#FFFFFF",
   red: "#FF0000",
   black: "#393939",
@@ -9,4 +9,4 @@ const Theme = {
   boxShadow: "0 12px 24px 0 rgba(0, 0, 0, 0.09)"
 };
 
-export default Theme;
+export default globalTheme;
