@@ -1,0 +1,9 @@
+endpoint: ${env:PRISMA_ENDPOINT}
+datamodel: datamodel.prisma
+# this is to lock down the database to give access only to one who use a correct secret key
+#secret: ${env:PRISMA_SECRET} #uncomment it when "PRODUCTION"
+
+# post deploy hook
+hooks:
+  post-deploy:
+    - graphql get-schema -p prisma
